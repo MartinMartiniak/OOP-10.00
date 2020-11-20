@@ -6,7 +6,7 @@ namespace OOP_10._00
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Random greeting message!");
         }
     }
 }

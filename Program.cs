@@ -6,6 +6,7 @@ namespace OOP_10._00
     {
         static void Main(string[] args)
         {
+            /*
             // Book LOTR = new Book("Martinkove coding adventures", 200, "Family Comedy", "Martin Martiniak", 2020);
             // Console.WriteLine(LOTR.ToString());
         
@@ -49,6 +50,20 @@ namespace OOP_10._00
             
             Console.WriteLine($"{LORT.Title} {LORT.Pages} {LORT.Category} {LORT.Author} {LORT.ReleaseDate}");
 
+
+            
+            Book LORT2 = new Book(); 
+            Book LORT3 = new Book("LORT3", 561);
+            Book HOBIT = new Book("HOBIT", 4654, "SCI-fi", "Martin Stano", 2003);
+
+            Console.WriteLine(LORT2.ToString());
+            Console.WriteLine(LORT3.ToString());
+            Console.WriteLine(HOBIT.ToString());
+            */
+
+
+            Book HOBIT = new Book("HOBIT", 4654, Book.CategoryList[3], "Martin Stano", 2003);
+            Console.WriteLine(HOBIT.ToString());
         } 
     }
 }

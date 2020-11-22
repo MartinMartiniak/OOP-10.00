@@ -6,8 +6,8 @@ namespace OOP_10._00
     {
         static void Main(string[] args)
         {
-            Book LOTR = new Book("Martinkove coding adventures", 200);
-            Console.WriteLine(LOTR.Title);
+            Book LOTR = new Book("Martinkove coding adventures", 200, "Family Comedy", "Martin Martiniak", 2020);
+            Console.WriteLine(LOTR.ToString());
         }
     }
 }

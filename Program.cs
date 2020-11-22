@@ -6,7 +6,8 @@ namespace OOP_10._00
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Random greeting message!");
+            Book LOTR = new Book("Martinkove coding adventures", 200);
+            Console.WriteLine(LOTR.Title);
         }
     }
 }
